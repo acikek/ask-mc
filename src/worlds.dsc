@@ -1,3 +1,13 @@
+#@ Multi-World Setup @#
+#
+# This configuration requires the following worlds:
+#   'survival', 'survival_nether', 'survival_the_end', and 'creative'
+#
+# The 'survival...' worlds are treated as one and the same.
+#
+# Players can switch between worlds by running '/survival' and '/creative'.
+# All relevant gameplay states are stored per-world as player flags.
+
 load_creative_world:
     type: world
     events:
