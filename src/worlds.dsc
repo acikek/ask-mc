@@ -8,6 +8,10 @@
 # Players can switch between worlds by running '/survival' and '/creative'.
 # All relevant gameplay states are stored per-world as player flags.
 
+## TODO: Preserve spawn points
+## TODO: Disable nether portals in creative
+## TODO: Add switching between adventure and creative (gamemodes) in the creative world
+
 load_creative_world:
     type: world
     events:
